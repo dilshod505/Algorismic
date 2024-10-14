@@ -37,6 +37,7 @@ const MainHeader = observer(() => {
                     />
                 </div>
 
+
                 <div className={"hidden sm:flex items-center gap-10"}>
                     <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
                         <a href="/">Bosh sahifa</a>
