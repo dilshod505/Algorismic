@@ -1,10 +1,13 @@
 import './App.css'
+import 'aos/dist/aos.css';
 import MainHeader from "./components/header.tsx";
 import {defaultPadding} from "../variables.ts";
 import SwiperRight from "./components/swiper-right.tsx";
 import SwiperLeft from "./components/swiper-left.tsx";
 import {Col, Row} from "antd";
 import MainSection from "./components/main-section.tsx";
+import News from "./components/news.tsx";
+import Service from "./components/service.tsx";
 
 function App() {
 
@@ -27,7 +30,7 @@ function App() {
                     <div className={'flex items-center justify-center gap-28'}>
                         <Row gutter={[16, 16]}>
                             <Col>
-                                <div className={'text-center'}>
+                                <div data-aos="zoom-out -up" className={'text-center'}>
                                     <h1 className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] font-bold">
                                         Algorismic  IT Company <br/>
                                     </h1>
@@ -48,6 +51,8 @@ function App() {
             <SwiperLeft/>
             <SwiperRight/>
             <MainSection/>
+            <News/>
+            <Service/>
         </>
     )
 }

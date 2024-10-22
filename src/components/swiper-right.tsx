@@ -50,9 +50,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-1.png"
+                                src="/picture-7.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -61,9 +61,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-2.png"
+                                src="/picture-8.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -72,9 +72,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-3.png"
+                                src="/picture-9.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -83,9 +83,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-4.png"
+                                src="/picture-10.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -94,9 +94,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-5.png"
+                                src="/picture-11.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -105,9 +105,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-6.png"
+                                src="/picture-1.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -116,20 +116,9 @@ export default function SwiperRight() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-7.png"
-                                alt="Image 1"
-                            />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
-                            <img
-                                className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
-                                }
-                                src="/slide-8.png"
+                                src="/picture-2.png"
                                 alt="Image 1"
                             />
                         </div>

@@ -49,9 +49,9 @@ export default function SwiperLeft() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-1.png"
+                                src="/picture-1.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -60,9 +60,9 @@ export default function SwiperLeft() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-2.png"
+                                src="/picture-2.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -71,9 +71,9 @@ export default function SwiperLeft() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-3.png"
+                                src="/picture-3.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -82,9 +82,9 @@ export default function SwiperLeft() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-4.png"
+                                src="/picture-4.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -93,9 +93,9 @@ export default function SwiperLeft() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-5.png"
+                                src="/picture-5.png"
                                 alt="Image 1"
                             />
                         </div>
@@ -104,123 +104,13 @@ export default function SwiperLeft() {
                         <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
                                 }
-                                src="/slide-6.png"
+                                src="/picture-6.png"
                                 alt="Image 1"
                             />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
-                            <img
-                                className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
-                                }
-                                src="/slide-7.png"
-                                alt="Image 1"
-                            />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
-                            <img
-                                className={
-                                    "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"
-                                }
-                                src="/slide-8.png"
-                                alt="Image 1"
-                            />
-                        </div>
-                    </SwiperSlide>
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-9.png"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-10.png"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-11.jpg"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-12.png"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-13.png"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-14.jpg"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-15.png"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide className={'hover:scale-110'}>*/}
-                    {/*    <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">*/}
-                    {/*        <img*/}
-                    {/*            className={*/}
-                    {/*                "w-[100%] h-[200px] rounded-2xl bg-center bg-cover object-cover"*/}
-                    {/*            }*/}
-                    {/*            src="/picture-16.PNG"*/}
-                    {/*            alt="Image 1"*/}
-                    {/*        />*/}
-                    {/*    </div>*/}
-                    {/*</SwiperSlide>*/}
                 </Col>
             </Row>
         </Swiper>

@@ -42,15 +42,15 @@ const MainHeader = observer(() => {
                     <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
                         <a href="/">Bosh sahifa</a>
                     </h3>
-                    <a href="/">
+                    <a href="/#about">
                         <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
                             Biz haqimizda
                         </h3>
                     </a>
                     <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
-                        <a href="/">Yangiliklar</a>
+                        <a href="/#news">Yangiliklar</a>
                     </h3>
-                    <a href="/">
+                    <a href="/#service">
                         <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
                             Xizmatlar
                         </h3>
