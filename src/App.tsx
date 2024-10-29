@@ -8,6 +8,9 @@ import {Col, Row} from "antd";
 import MainSection from "./components/main-section.tsx";
 import News from "./components/news.tsx";
 import Service from "./components/service.tsx";
+import Contact from "./components/contact.tsx";
+import YandexMap from "./components/yandex-map.tsx";
+import Footer from "./components/footer.tsx";
 
 function App() {
 
@@ -53,6 +56,9 @@ function App() {
             <MainSection/>
             <News/>
             <Service/>
+            <Contact/>
+            <YandexMap/>
+            <Footer/>
         </>
     )
 }

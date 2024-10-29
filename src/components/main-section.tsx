@@ -17,9 +17,9 @@ function MainSection() {
     return (
         <div id={'about'}
             className={`${defaultPadding} bg-black text-white min-h-[50vh] flex items-center justify-center mx-auto pt-28`}>
-            <div className={'flex items-center justify-between py-16 px-24'}>
-                <Row gutter={[16, 16]}>
-                    <Col>
+            <div className={'px-5 md:px-10 lg:px-20 flex items-center justify-center'}>
+                <Row gutter={[16, 16]} align="middle">
+                    <Col xs={24} md={12}>
                         <div data-aos="fade-right" className={'max-w-[600px] mt-24 mb-24'}>
                             <h1 className={'text-4xl font-bold mb-5'}>Algorismic Tech natijaga yo'naltirilgan raqamli
                                 marketing xizmatlarini taklif qiladi.</h1>
@@ -28,12 +28,11 @@ function MainSection() {
                             <br/>
                             <button type={'submit'}
                                     className={'bg-green-600 px-10 py-2 rounded-full font-bold flex items-center gap-3'}
-                                    onClick={phoneBtn}><FaPhone/> Bog&apos;lanish
+                                    onClick={phoneBtn}><FaPhone/> Bog'lanish
                             </button>
                         </div>
                     </Col>
-                    <div></div>
-                    <Col>
+                    <Col xs={24} md={12}>
                         <div data-aos={'fade-left'} className={'max-w-[1800px]'}>
                             <img src="/it.png" alt="" width={500} height={500}/>
                         </div>

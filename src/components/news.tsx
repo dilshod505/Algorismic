@@ -22,7 +22,7 @@ const News: React.FC = () => {
                 </div>
             </div>
 
-            <div  data-aos={'zoom-in-right'} className="lg:w-1/2 w-full grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div data-aos={'zoom-in-right'} className="lg:w-1/2 w-full grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="relative">
                     <img className="w-full h-48 object-cover rounded-lg" src="/part-1.png" alt="News 1" />
                     <div className="absolute bottom-4 left-4 text-white">

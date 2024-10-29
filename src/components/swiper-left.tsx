@@ -45,22 +45,11 @@ export default function SwiperLeft() {
         >
             <Row gutter={[16, 16]}>
                 <Col xs={8} sm={24} md={12} lg={12} xl={12}>
-                    <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
+                    <SwiperSlide className={''}>
+                        <div className="hover:scale-110 cursor-pointer object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
-                                }
-                                src="/picture-1.png"
-                                alt="Image 1"
-                            />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
-                            <img
-                                className={
-                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[100px] rounded bg-center bg-cover object-cover"
                                 }
                                 src="/picture-2.png"
                                 alt="Image 1"
@@ -68,10 +57,10 @@ export default function SwiperLeft() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
+                        <div className="hover:scale-110 cursor-pointer object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[100px] rounded bg-center bg-cover object-cover"
                                 }
                                 src="/picture-3.png"
                                 alt="Image 1"
@@ -79,10 +68,10 @@ export default function SwiperLeft() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
+                        <div className="hover:scale-110 cursor-pointer object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[100px] rounded bg-center bg-cover object-cover"
                                 }
                                 src="/picture-4.png"
                                 alt="Image 1"
@@ -90,10 +79,10 @@ export default function SwiperLeft() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
+                        <div className="hover:scale-110 cursor-pointer object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[100px] rounded bg-center bg-cover object-cover"
                                 }
                                 src="/picture-5.png"
                                 alt="Image 1"
@@ -101,10 +90,10 @@ export default function SwiperLeft() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={'hover:scale-110'}>
-                        <div className="object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
+                        <div className="hover:scale-110 cursor-pointer object-cover rounded-2xl overflow-hidden flex justify-center items-center p-5">
                             <img
                                 className={
-                                    "max-w-[100%] h-[115px] rounded bg-center bg-cover object-cover"
+                                    "max-w-[100%] h-[100px] rounded bg-center bg-cover object-cover"
                                 }
                                 src="/picture-6.png"
                                 alt="Image 1"

@@ -3,7 +3,7 @@ import React from 'react';
 const Service: React.FC = () => {
     return (
         <div id={'service'} className="bg-black pt-40">
-            <div className="text-center mb-12">
+            <div data-aos={'zoom-out'} className="text-center mb-12">
                 <h2 className="text-4xl font-bold text-white">
                     Bizning <span className="text-blue-500">Xizmatlarimiz</span>
                 </h2>
@@ -12,7 +12,7 @@ const Service: React.FC = () => {
                 </p>
             </div>
 
-            <div className="py-8 px-24 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div data-aos={'zoom-in'} className="py-8 px-24 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bg-white p-6 rounded-lg shadow-md text-center">
                     <img src="/img-1.png" alt="Store Hours and Vacation" className="mx-auto mb-6"/>
                     <h3 className="mb-2">Do'kon soatlari va dam olish</h3>

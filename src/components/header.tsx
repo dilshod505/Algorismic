@@ -56,14 +56,11 @@ const MainHeader = observer(() => {
                         </h3>
                     </a>
                     <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
-                        <a href="/">Bog&apos;lanish</a>
-                    </h3>
-                    <h3 className={"hover:text-blue-400 cursor-pointer transition-all duration-300"}>
-                        <a href="/">Buyurtma berish    </a>
+                        <a href="/#contact">Bog&apos;lanish</a>
                     </h3>
                     <div className={"bg-green-600 py-1 px-1 rounded-xl cursor-pointer"}>
                         <AiFillPhone
-                            onClick={() => (window.location.href = "tel:+998 90 351 72 61")}
+                            onClick={() => (window.location.href = "tel:+998 97 888 10 27")}
                         />
                     </div>
                 </div>
@@ -85,7 +82,7 @@ const MainHeader = observer(() => {
                                 </span>
                             </a>
                         </h3>
-                        <a href="/" onClick={closeMenu}>
+                        <a href="/#about" onClick={closeMenu}>
                             <h3
                                 className={
                                     "mt-2 hover:cursor-pointer transition-all duration-300 transform hover:scale-105 hover:border-b-4 hover:border-yellow-400 text-[16px]"
@@ -102,33 +99,9 @@ const MainHeader = observer(() => {
                             }
                             onClick={closeMenu}
                         >
-                            <a href="/">
+                            <a href="/#news">
                                 <span className="relative text-3xl font-bold">
                                     Yangiliklar
-                                </span>
-                            </a>
-                        </h3>
-                        <h3
-                            className={
-                                " hover:cursor-pointer transition-all duration-300 transform hover:scale-105 hover:border-b-4 hover:border-yellow-400 text-[16px]"
-                            }
-                            onClick={closeMenu}
-                        >
-                            <a href="/">
-                                <span className={'font-bold text-3xl'}>
-                                    Bog&apos;lanish
-                                </span>
-                            </a>
-                        </h3>
-                        <h3
-                            className={
-                                " hover:cursor-pointer transition-all duration-300 transform hover:scale-105 hover:border-b-4 hover:border-yellow-400 text-[16px]"
-                            }
-                            onClick={closeMenu}
-                        >
-                            <a href="/">
-                                <span className={'font-bold text-3xl'}>
-                                    Buyurtma berish
                                 </span>
                             </a>
                         </h3>
@@ -137,9 +110,21 @@ const MainHeader = observer(() => {
                                 "mt-2 hover:cursor-pointer transition-all duration-300 transform hover:scale-105 hover:border-b-4 hover:border-yellow-400 text-[16px]"
                             }
                         >
-                            <a href="/" onClick={closeMenu}>
+                            <a href="/#service" onClick={closeMenu}>
                                 <span className="relative font-bold text-3xl">
                                     Xizmatlar
+                                </span>
+                            </a>
+                        </h3>
+                        <h3
+                            className={
+                                " hover:cursor-pointer transition-all duration-300 transform hover:scale-105 hover:border-b-4 hover:border-yellow-400 text-[16px]"
+                            }
+                            onClick={closeMenu}
+                        >
+                            <a href="/#contact">
+                                <span className={'font-bold text-3xl'}>
+                                    Bog&apos;lanish
                                 </span>
                             </a>
                         </h3>
